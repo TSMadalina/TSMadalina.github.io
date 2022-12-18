@@ -114,7 +114,7 @@ function imageSlider() {
 
     const projectSlide = document.querySelector(".project-slide");
 
-    const figures = document.querySelector(".figure");
+    const figures = document.querySelectorAll(".figure");
     for (let figure of figures) {
         figure.addEventListener("mouseenter", () => {
             document.querySelector('.cursor').classList.add("active");
