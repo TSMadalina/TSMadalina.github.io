@@ -1110,17 +1110,29 @@ nav {
     transform: translateY(-20%);
   }
 
-  .button-live:hover .icon-left {
-    transform: translateX(1.2vw);
+  button:hover .icon-right {
+    transform: translateX(170%);
   }
 
-  .button-repository:hover .icon-left {
-    transform: translateX(1vw);
+  .item4:hover .icon-left {
+    transform: translateX(20%);
+  }
+
+  button:hover::after {
+    transform: translateX(72%);
+  }
+
+  .button-live:hover .icon-right {
+    transform: translateX(4.5vw);
+  }
+
+  .button-repository:hover .icon-right {
+    transform: translateX(3.5vw);
   }
 
   .button-live:hover::after,
   .button-repository:hover::after {
-    transform: translateX(68%);
+    transform: translateX(67%);
   }
 
   .section.contact {
@@ -1426,7 +1438,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 480px) and (pointer: coarse) {
+@media screen and (max-width: 480px) {
   .shapes,
   .cursor {
     visibility: hidden;
@@ -1508,7 +1520,8 @@ nav {
   }
 
   button::after {
-    min-width: 150px;
+    min-width: 30vw;
+    min-height: 27px;
   }
 
   span {
