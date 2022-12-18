@@ -13,6 +13,8 @@ This is a responsive, single-page personal portfolio website with smooth scrolli
 
 ![Design fără titlu](https://user-images.githubusercontent.com/76962878/208312979-d4499d99-c174-4751-80c9-61ad39730e85.png)
 
+## Color Reference
+
 | Color      | Hex           |
 | ---------- | -----------   |
 | Blue       | ![image](https://user-images.githubusercontent.com/76962878/208315716-2d117e3f-30c3-418a-94b4-dc6961be8610.png) <code>#12358f |
