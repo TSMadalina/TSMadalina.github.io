@@ -13,10 +13,10 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   </head>
   <body data-aos-easing="ease">
-    <div class="cursor phone-responsive"></div>
+    <div class="cursor"></div>
 
     <section class="home" id="home">
-      <div class="shapes phone-responsive">
+      <div class="shapes">
         <div class="shape shape-1"></div>
         <div class="shape shape-2"></div>
         <div class="shape shape-3"></div>
@@ -67,7 +67,7 @@
             data-aos-delay="1000"
             data-aos-duration="700"
           >
-            <h4>LANGUAGES</h4>
+            <h4>languages</h4>
             <ul>
               <li>C#</li>
               <li>C++</li>
@@ -84,7 +84,7 @@
             data-aos-delay="1200"
             data-aos-duration="800"
           >
-            <h4>TOOLS/FRAMEWORKS</h4>
+            <h4>tools/frameworks</h4>
             <ul>
               <li>QT</li>
               <li>React</li>
@@ -97,7 +97,8 @@
           </div>
         </div>
         <div class="button-container">
-          <a href="src\assets\Tîlvan Mădălina-Ștefania - resume.pdf">
+          <!-- <a href="src\assets\Tîlvan Mădălina-Ștefania - resume.pdf"> -->
+          <a href="#about">
             <button
               data-aos="fade-right"
               data-aos-delay="1600"
@@ -193,9 +194,10 @@ C255,161.018,253.42,157.202,250.606,154.389z"
                   shape selection, eraser, among other tools.
                 </p>
                 <div class="project-buttons">
-                  <a href="https://codepen.io/tmsresolute10/pen/ExLWVKq">
+                  <!-- <a href="https://codepen.io/tmsresolute10/pen/ExLWVKq"> -->
+                  <a href="#projects">
                     <button class="button-live">
-                      <span> Live Demo </span>
+                      <span> Demo </span>
                       <div class="icon-container">
                         <div class="icon icon-left">
                           <svg
@@ -226,7 +228,8 @@ C255,161.018,253.42,157.202,250.606,154.389z"
                       </div>
                     </button>
                   </a>
-                  <a href="https://codepen.io/tmsresolute10/pen/ExLWVKq">
+                  <!-- <a href="https://codepen.io/tmsresolute10/pen/ExLWVKq"> -->
+                  <a href="#projects">
                     <button class="button-repository">
                       <span> Github </span>
                       <div class="icon-container">
@@ -294,7 +297,7 @@ C255,161.018,253.42,157.202,250.606,154.389z"
                 <div class="project-buttons">
                   <a href="https://tsmadalina.itch.io/procedural-escape">
                     <button class="button-live">
-                      <span> Live Demo </span>
+                      <span> Demo </span>
                       <div class="icon-container">
                         <div class="icon icon-left">
                           <svg
@@ -364,7 +367,7 @@ C255,161.018,253.42,157.202,250.606,154.389z"
                 <div class="project-buttons">
                   <a href="https://bug-chat-app.web.app">
                     <button class="button-live">
-                      <span> Live Demo </span>
+                      <span> Demo </span>
                       <div class="icon-container">
                         <div class="icon icon-left">
                           <svg
@@ -537,10 +540,13 @@ C255,161.018,253.42,157.202,250.606,154.389z"
             data-aos-delay="600"
             data-aos-duration="800"
           >
-            <form
-              action="https://formsubmit.co/tilvanmadalina@gmail.com"
-              method="POST"
-            >
+            <form action="https://formsubmit.co/el/jeseno" method="POST">
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_next"
+                value="src\pages\thankyou.html"
+              />
               <fieldset class="item1">
                 <label for="name">Your name</label>
                 <input
@@ -674,7 +680,7 @@ C255,161.018,253.42,157.202,250.606,154.389z"
         class="logo"
         src="src/images/logo.png"
         alt="Madalina's logo"
-        onClick="window.location.href='#home'"
+        onClick="window.location.href=''"
         data-aos="slide-right"
         data-aos-duration="500"
       />
