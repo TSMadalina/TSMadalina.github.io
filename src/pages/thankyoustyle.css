@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Comfortaa-Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Comfortaa-Bold.ttf") format("truetype");
+}
+
+:root {
+  --baby-blue-color: #749df5;
+  --blue-color: #12358f;
+  --light-blue-color: #b9e3fc;
+  --light-blue-opacity-color: #b9e3fc80;
+  --pink-color: #f5bbd1;
+  --white-color: #fefefe;
+}
+
+html,
+body {
+  color: var(--blue-color);
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Comfortaa-Bold", Helvetica;
+  letter-spacing: 5px;
+  padding: 0;
+}
+
+h1 {
+  font-size: 67px;
+  margin: 0;
+  min-width: 410px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: 70%;
+}
+
+.button-container {
+  width: 170px;
+  margin: 1rem 0 0 0;
+}
+
+button {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.308);
+  border: none;
+  border-radius: 35px;
+  color: var(--white-color);
+  display: flex;
+  font-size: 17px;
+  height: 45px;
+  justify-content: center;
+  letter-spacing: 2px;
+  overflow: hidden;
+  padding: 5px;
+  position: relative;
+  width: 170px;
+}
+
+button::after {
+  background: var(--pink-color);
+  border-radius: 35px;
+  content: "";
+  left: 0;
+  min-height: 35px;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  transition: transform 0.5s ease;
+  z-index: 1;
+}
+
+button:hover .icon-left {
+  opacity: 1;
+  transform: translateX(130%);
+}
+
+button:hover .icon-right {
+  opacity: 0;
+  transform: translateX(200%);
+}
+
+button:hover::after {
+  transform: translateX(73%);
+}
+
+.icon-container {
+  height: 15px;
+  margin: 0 0 0 15px;
+  position: relative;
+  transition: transform 0.5s ease;
+  width: 15px;
+}
+
+.icon {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: transform 0.5s ease, opacity 0.25s ease;
+  width: 15px;
+  z-index: 2;
+}
+
+.icon svg {
+  fill: #fff;
+}
+
+.icon-left {
+  opacity: 0;
+  transform: translateX(-200%);
+}
+
+span {
+  font-size: 15px;
+  margin: 0 0 0 5px;
+  z-index: 2;
+}
+
+a {
+  color: var(--blue-color);
+  text-decoration: none;
+}
