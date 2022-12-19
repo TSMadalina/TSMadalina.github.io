@@ -35,8 +35,8 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: clip;
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
+  /* scroll-snap-type: y mandatory; */
+  /* scroll-behavior: smooth; */
 }
 
 .cursor {
@@ -68,7 +68,7 @@ section {
   letter-spacing: 5px;
   padding: 0;
   position: relative;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 h1 {
@@ -151,7 +151,7 @@ li {
   background: var(--white-color);
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 101vh;
   justify-content: center;
   mix-blend-mode: screen;
   position: absolute;
@@ -162,7 +162,7 @@ li {
   margin: 0 0 0 200px;
 }
 
-/* All sections (without home) */
+/* All sections*/
 .section {
   align-items: flex-start;
   font-size: 32px;
@@ -572,7 +572,7 @@ footer {
   display: flex;
   height: 20vh;
   margin: 15vw 0 0 0;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 footer > * {
@@ -1309,7 +1309,7 @@ nav {
   /* Slide container */
   .project-slide {
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    /* scroll-snap-type: x mandatory; */
     width: 140%;
   }
 
@@ -1317,7 +1317,7 @@ nav {
     flex-wrap: wrap;
     height: 550px;
     padding: 0 200px 0;
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
     width: 100%;
   }
 
@@ -1545,7 +1545,7 @@ nav {
   /* Slide container */
   .project-slide {
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    /* scroll-snap-type: x mandatory; */
     width: 140%;
   }
 
@@ -1553,7 +1553,7 @@ nav {
     flex-wrap: wrap;
     height: 500px;
     padding: 0 0 0 200px;
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
     width: 100%;
   }
 
