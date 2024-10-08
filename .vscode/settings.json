@@ -1,9 +1,9 @@
 {
-    "editor.fontSize": 14,
-    "editor.codeActionsOnSave": {
-        "source.sortImports":true,
-        "source.fixAll":true
-    },
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.fontSize": 14,
+  "editor.codeActionsOnSave": {
+    "source.sortImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
