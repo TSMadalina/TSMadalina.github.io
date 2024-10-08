@@ -1,4 +1,4 @@
-# Madalina Tilvan Personal Portfolio
+# Madalina Mesrefoglu Personal Portfolio
  
 This is a responsive, single-page personal portfolio website with smooth scrolling.
 
