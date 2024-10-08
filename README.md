@@ -9,9 +9,9 @@ This is a responsive, single-page personal portfolio website with smooth scrolli
 - CSS3 
 - AOS library
 - VSCode
-- GSAP (Flip plugin) 
+- GSAP (Flip plugin)
 
-![Design fără titlu](https://user-images.githubusercontent.com/76962878/208312979-d4499d99-c174-4751-80c9-61ad39730e85.png)
+![Design fără titlu](https://github.com/user-attachments/assets/8edc4b94-f1eb-41ae-9546-b108911d8368)
 
 ## Color Reference
 
